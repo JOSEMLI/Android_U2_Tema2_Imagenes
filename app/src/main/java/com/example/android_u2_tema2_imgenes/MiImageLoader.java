@@ -34,7 +34,6 @@ public class MiImageLoader extends AppCompatActivity {
     //imageLoader.displayImage("https://testand1.000webhostapp.com/mifoto.jpg", miimagen, options, new ImageLoadingListener() {
     imageLoader.displayImage("https://bamboo-amplitude.000webhostapp.com/UPT/parkour.jpg", miimagen, options, new ImageLoadingListener() {
 
-
       @Override
       public void onLoadingStarted(String imageUri, View view) {
         miimagen.setVisibility(View.GONE);
